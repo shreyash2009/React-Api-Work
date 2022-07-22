@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.body{
+    background: linear-gradient(90deg, #E55D87, #5FC3E4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.body h1{
+    font-size: x-large;
+    color: white;
+    font-weight: 400;
+    text-shadow: 3px 4px 6px black;
+}
+.body section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60rem;
+    height: 80%;
+    background-color: white;
+    border-radius: 30px ;
+}
+.body form{
+    /* margin: auto; */
+    padding: 15px 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.body form input{
+    padding: 1.2vh 0.8vw;
+    color: black;
+    font-size: larger;
+    border-radius: 9px;
+}
+.body button{
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    padding: 8px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 12px;
+    border: none;
+    box-shadow: px 5px 3px 1px grey;
+    cursor: pointer;
+}
+ .body button:hover{
+    background-color: #100148;
+    box-shadow: 2px 1px 2px 1px grey;
+}
+
+ .body input:focus{
+    border: white;
+}
+ .body .User-container{
+    background-color: rgb(224, 215, 215);
+    width: 50%;
+    height: 100%;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    justify-self: stretch;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border-radius: 0 30px 30px 0px;
+}
+.body img{
+    width: 55%;
+    height: 45%;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid rgb(57, 56, 56);
+}
+.body .User-container a{
+    text-decoration: none;
+
+}
+.body .User-container .info{
+    height: 40%;
+}
+.body .User-container .info h3{
+    font-size: 1.2rem;
+}
+.body .User-container .info h3 span{
+    color: olive ;
+}
+span{
+    color: olive;
+}
+.body .User-container .info h3,h4,p,span,a{
+    margin: 0.9rem
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  #AppContainer {
+    background-color: rgb(35, 35, 35);
+    box-shadow: 0 2px 3px 2px grey;
+    padding: 1.2rem;
+  }
+  #AppContainer .heading {
+    color: rgb(255, 255, 252);
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-transform: uppercase;
+  }
+  #AppContainer .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  #AppContainer .input-container .icon {
+    font-size: 1.5rem;
+    color: white;
+    border: 2px solid white;
+    padding: 0.4rem;
+    border-radius: 10px;
+  }
+  #AppContainer .input-container #query {
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    width: 50%;
+  }
+  #AppContainer .input-container #query:focus {
+    outline: none;
+  }
+  #AppContainer .input-container .search-btn {
+    padding: 0.4rem 1.2rem;
+    border: solid white 2px;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  #AppContainer .input-container .search-btn:hover {
+    background-color: white;
+    color: black;
+    transform: translate(-0.7%, -0.7%);
+    box-shadow: 0 5px 3px rgb(154, 152, 152);
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 10rem;
+    rotate: 1 -0.5 1 180deg;
+  }
+  
+  .img-viewer {
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.6rem;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  .img-viewer .img-container {
+    width: 30%;
+    position: relative;
+  }
+  .img-viewer .img-container .img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 4px rgb(138, 135, 135);
+  }
+  .img-viewer .img-container .img:hover {
+    transform: scale(1.02);
+  }
+  .img-viewer .img-container .option-btns {
+    position: absolute;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem;
+    width: 100%;
+    z-index: 12;
+  }
+  .img-viewer .img-container .option-btns .fav-btn, .img-viewer .img-container .option-btns .down-btn {
+    background-color: rgba(206, 204, 204, 0.303);
+    padding: 0.5rem;
+    font-size: x-large;
+    border: none;
+    border-radius: 10px;
+    color: rgb(36, 36, 36);
+  }
+  .img-viewer .img-container .option-btns .fav-btn.active {
+    color: white;
+    background-color: red;
+  }
+  .img-viewer .img-container .option-btns .down-btn {
+    text-decoration: none;
+    color: black;
+  }/*# sourceMappingURL=Unsplash.css.map */

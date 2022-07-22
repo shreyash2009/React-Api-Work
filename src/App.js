@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {BrowserRouter as Router, Routes,Route} from 'react-router-dom'
 
-function App() {
+import Home from './components/Home/Home';
+import GithubApp from './components/Github/GithubApp';
+import UnsplashApp from './components/Unsplash/UnsplashApp';
+import Covid from './components/Covid/Covid';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Home/>}></Route>
+        <Route exact path='/github' element={<GithubApp/>}></Route>
+        <Route exact path='/unsplash' element={<UnsplashApp/>}></Route>
+        <Route exact path='/covid' element={<Covid/>}></Route>
+      </Routes>
+    </Router> 
+  )
 }
 
-export default App;
+export default App

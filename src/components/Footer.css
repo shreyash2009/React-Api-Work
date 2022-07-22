@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@1,300&family=Pushster&display=swap');
+footer
+  {
+      display: flex;
+      justify-content: center;
+      bottom: 0;
+      width: 100vw;
+      height: 22vh;
+      background-color: #ACBFC2;
+      color: white;
+      margin-top: 50px;
+      font-family: 'Poppins', sans-serif;
+      padding-bottom: 14px;
+  }
+  .foot .menu ul{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  
+  }
+  .foot .menu ul li{
+      padding: 9px 10px;
+      font-size: 2.2vh;
+      color: wheat;
+  
+  }
+  .foot .menu ul a{
+      text-decoration: none;
+  }
+  .foot .social h4{
+      text-align: center;
+      border-bottom: solid wheat;
+      padding: 1vh;
+  }
+  .foot .social ul li{
+      list-style: none;
+      text-decoration: none;
+      padding: 9px 10px;
+      font-size: 3vh;
+      color: white;
+      
+  }
+  .foot .social ul a{
+      text-decoration: none;
+      color: #1D2723;
+  }
+  .foot .social ul{
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  
+  }
+  footer h5{
+      text-align: center;
+      color: rgb(253, 157, 3);
+      font-size: 1.2rem;
+      font-family:Arial, Helvetica, sans-serif;
+  }
+  .foot .social ul a:hover{
+      transition: 0.4s;
+      color: white;
+  }
+  .foot .menu ul li:hover{
+      transition: 0.4s;
+      color: white;
+  }
+  /* footer ends  */
