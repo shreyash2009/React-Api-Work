@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ImageShower from "./ImageShower";
 import Loading from "./Loading";
 
@@ -34,10 +34,7 @@ const [len,setLen] = useState(1);
         console.log("error")
     }
   }
-  const changePg = (num)=>{
-    setLen(num);
-    fetchImages()
-  }
+  
   
  
   return (

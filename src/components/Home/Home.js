@@ -7,6 +7,7 @@ import covid from '../../assets/covid2.jpg'
 import Footer from '../Footer'
 import './Home.css'
 const Home = () => {
+  
   return (
     <>
     <header><h1>React Projects</h1></header>
